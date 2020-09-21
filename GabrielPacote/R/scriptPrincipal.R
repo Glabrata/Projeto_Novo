@@ -1,5 +1,5 @@
 usethis::use_git()
-1
+3
 usethis::use_git_config(
   user.name = "Glabrata",
   user.email = "gdcaldana@gmail.com"
@@ -26,6 +26,8 @@ colar = function (x,y) {
 }
 
 colar(x = 10, y = 5)
+
+usethis::use_readme_rmd()
 
 install.packages("devtools")
 devtools::document()
